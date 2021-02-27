@@ -12,32 +12,72 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
 
     <title>Ali G Portfolio Website</title>
   </head>
   <body>
     <!-- Navbar Header -->
-    <header id="header" class="fixed-top d-flex align-items-center justify-content-start header-transparent">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <div class="collaps navbar-collaps" id="navbarNav">
-            <ul class="navbar-nav">
-              <li><a class="nav-link scrollto pr-4" href="#hero">Home</a></li>
-              <li><a class="nav-link scrollto pr-4" href="#about">About</a></li>
-              <li><a class="nav-link scrollto pr-4" href="#portfolio">Portfolio</a></li>
-              <li><a class="nav-link scrollto pr-4" href="#resume">Resume</a></li>
-              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            </ul>
+    <header id="header" class="fixed-top align-items-center">
+      <nav class="navbar d-none d-md-flex navbar-expand-md mdNavbar py-0">
+        <a class="navbar-icon py-3 px-2" href="#">
+          <i class="fab fa-linkedin" class="d-inline-block align-center"></i>
+        </a>
+        <a class="navbar-icon py-3 px-2" href="#">
+          <i class="fab fa-github-square" class="d-inline-block align-center"></i>
+        </a>
+        <div class="d-none d-md-flex flex-grow-1" id="navbarNav">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link py-3 px-3 scrollto" href="#hero">Home</a>
+            <a class="nav-link py-3 px-3 scrollto" href="#about">About</a>
+            <a class="nav-link py-3 px-3 scrollto" href="#portfolio">Portfolio</a>
+            <a class="nav-link py-3 px-3 scrollto" href="#resume">Resume</a>
+            <a class="nav-link py-3 px-3 scrollto" href="#contact">Contact</a>
           </div>
         </div>
       </nav>
-
+      <nav class="navbar d-block d-md-none navbar-dark bg-dark navbarMenu">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mt-3 mr-auto">
+            <li class="pb-3">
+              <a class="nav-link scrollto" href="#hero">Home</a>
+            </li>
+            <li class="pb-3">
+              <a class="nav-link scrollto" href="#about">About</a>
+            </li>
+            <li class="pb-3">
+              <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="pb-3">
+              <a class="nav-link scrollto" href="#resume">Resume</a>
+            </li>
+            <li class="pb-3">
+              <a class="nav-link scrollto" href="#contact">Contact</a>
+            </li>
+            <li>
+              <a class="navbar-icon py-3 px-2" href="#">
+                <i class="fab fa-linkedin" class="d-inline-block align-center"></i>
+              </a>
+              <a class="navbar-icon py-3 px-2" href="#">
+                <i class="fab fa-github-square" class="d-inline-block align-center"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <!-- Hero Section -->
     <section id="hero" class="hero-image">
-      <div class="hero-container">
-        <h1></h1>
+      <div class="hero-container d-flex justify-content-center align-items-center">
+        <h1 class="py-2">Ali Greenberg</h1>
+        <h2>Creative Web Developer in Brooklyn, New York</h2>
+      </div>
+      <div class="hero-container d-flex justify-content-end align-items-center mb-5">
+        <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="fas fa-chevron-down"></i></a>
       </div>
     </section>
 
