@@ -11,6 +11,12 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+
+#header {
+  background: rgba(25, 28, 31, 0.3);
+  height: 60px;
+}
+
 #hero-container {
   opacity: 1;
 }
@@ -56,5 +62,37 @@ h3 a {
 }
 .fa-chevron-down {
   color: white;
-  font-size: 30px;
+  font-size: 33px;
+}
+
+/*-------About Secion-----------*/
+.container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 20px;
+  
+}
+
+.skills {
+  padding-left: 35px;
+}
+
+#about .progressBar .value {
+  float: right;
+}
+
+.aboutImg {
+  max-width: 250px;
+}
+
+/*----------Portfolio----------*/
+
+#portfolio {
+  background-color: #f5f5f5;
 }
