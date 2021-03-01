@@ -11,7 +11,9 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-
+#about, #portfolio, #contact {
+  background-color: #faf9f9;
+}
 #header {
   background: rgba(25, 28, 31, 0.3);
   height: 60px;
@@ -41,7 +43,10 @@ body {
 .bg-dark {
   opacity: .7;
 }
-
+.container {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
 
 #hero .hero-container {
   position: absolute;
@@ -53,15 +58,15 @@ body {
   color: white;
   padding-bottom: 80px;
 }
-h1 {
+#hero h1 {
   font-weight: 700;
-  font-size: 55px; 
-  font-family: 'Lato', sans-serif; 
+  font-size: 88px; 
+  font-family: 'Sacramento', cursive;
   text-shadow: 1px 1px #666;
 }
 
 #hero h2 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h3 a {
@@ -92,11 +97,6 @@ h3 a {
 
 
 /*-------About Secion-----------*/
-#about .container {
-  padding-top: 30px;
-  padding-bottom: 100px;
-}
-
 
 .section-title {
   text-align: center;
@@ -124,14 +124,40 @@ h3 a {
 
 /*----------Portfolio----------*/
 
-#portfolio .container {
-  padding-top: 30px;
-  padding-bottom: 50px;
+
+
+/*------Contact------*/
+
+
+/*-----Footer-----*/
+
+footer {
+  text-align: center;
+  padding-top: 15px;
+  background-color:#666;
+  color:#fff;
 }
 
-#portfolio {
-  background-color: #f5f5f5;
+footer h5 {
+  font-family: 'Sacramento', cursive;
+  font-size: 28px;
 }
 
+.footer-contact {
+  font-size: 14px;
+}
+.copyright {
+  font-size: 12px;
+  padding-top: 5px;
+}
 
-
+.back-to-top {
+  color:#e0ddda;
+  padding-bottom: 20px;
+  font-size: 28px;
+}
+.back-to-top:hover {
+  color:#fff;
+  text-decoration: none;
+  font-weight: 300;
+}
