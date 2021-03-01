@@ -93,7 +93,18 @@ h3 a {
   color: white;
   font-size: 33px;
 }
-
+@media (max-width: 761px) {
+  #hero h1 {
+    font-weight: 700;
+    font-size: 60px; 
+    font-family: 'Sacramento', cursive;
+    text-shadow: 1px 1px #666;
+  }
+  
+  #hero h2 {
+    font-size: 18px;
+  }
+}
 
 /*-------About Secion-----------*/
 
