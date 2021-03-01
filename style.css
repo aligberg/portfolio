@@ -11,7 +11,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-#about, #portfolio, #contact {
+#about, #contact {
   background-color: #faf9f9;
 }
 #header {
@@ -122,12 +122,31 @@ h3 a {
   max-width: 250px;
 }
 
+#about p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+
 /*----------Portfolio----------*/
 
 
 
 /*------Contact------*/
-
+.contact-form, .email, .phone, .social {
+  background-color: #fff;
+  box-shadow: 3px 3px rgba(25, 28, 31, 0.2);
+  border-radius: 4%;
+  text-align: center;
+  
+}
+.email, .phone {
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+.social {
+  padding: 35px 15px 35px 10px;
+}
 
 /*-----Footer-----*/
 
@@ -160,4 +179,6 @@ footer h5 {
   color:#fff;
   text-decoration: none;
   font-weight: 300;
+  transform: translateY(-3px);
+  transition: 1s ease;
 }
