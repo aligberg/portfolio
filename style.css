@@ -44,7 +44,6 @@ body {
   opacity: .7;
 }
 .container {
-  padding-top: 30px;
   padding-bottom: 100px;
 }
 
@@ -101,7 +100,7 @@ h3 a {
 .section-title {
   text-align: center;
   font-size: 35px;
-  padding-bottom: 30px;
+  padding: 30px 0;
 }
 .me {
   text-align: center;
@@ -129,7 +128,24 @@ h3 a {
 
 
 /*----------Portfolio----------*/
+.portfolio-item {
+  margin-bottom: 30px;
+}
 
+
+.portfolioTitle {
+  height: 50px;
+  background-color: rgba(25, 28, 31, 0.4);
+  color: #fff;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  justify-content: center;
+}
+
+.portfolioTitle h6 {
+  padding-left: 25px;
+}
 
 
 /*------Contact------*/
@@ -137,15 +153,28 @@ h3 a {
   background-color: #fff;
   box-shadow: 3px 3px rgba(25, 28, 31, 0.2);
   border-radius: 4%;
-  text-align: center;
-  
+  text-align: center;  
 }
 .email, .phone {
-  padding: 10px 15px;
+  padding: 25px 15px 18px 15px;
   margin-bottom: 15px;
 }
 .social {
-  padding: 35px 15px 35px 10px;
+  padding: 30px 15px 30px 10px;
+}
+#contact a, #contact p {
+  color: #17a2b8;
+}
+#contact h4 {
+  font-size: 19px;
+  font-weight: 500;
+  color: #666;
+}
+
+.social-icons i {
+  font-size: 22px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /*-----Footer-----*/
